@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>duplex binding – simple example</title>
+  </head>
+  <body>
+    <style>
+      my-element {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background: skyblue;
+      }
+    </style>
+    <template bind>
+      <my-element value="{{counter.value}}">Click me to get points.</my-element>
+      <h4>You have {{counter.value}} points.</h4>
+    </template>
+    <script type="text/javascript" src="bundle.js"></script>
+  </body>
+</html>
+

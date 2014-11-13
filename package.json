@@ -1,0 +1,13 @@
+{
+  "name": "duplex-binding",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd example && beefy index.js:bundle.js --open"
+  },
+  "author": "Tim Oxley",
+  "license": "ISC",
+  "devDependencies": {
+    "beefy": "^1.1.0"
+  }
+}
